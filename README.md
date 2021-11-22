@@ -1,2 +1,2 @@
 # skate-store
-Loja skt
+Ecommerce de peças e roupas  de skate. Sejam bem vindos à Tech Skate!
