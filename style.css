@@ -11,7 +11,7 @@ a{
   color: lightgray;
 }
 body { 
-  background: linear-gradient(90deg, lightgrey, rgba(154, 175, 212, 0.973));
+  background: linear-gradient(90deg, lightgrey, #777d9b);
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 
 .header {
   padding: 15px;
-  background: black;
+  background: #1f1f20;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -29,10 +29,14 @@ img {
   box-sizing: border-box;
 }
 
-h1, h5 {
-  padding-top: 30px;
+h1 {
+  padding-top: 15px;
   text-align: center;
+}
 
+h5 {
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 .menu {
@@ -48,6 +52,34 @@ h1, h5 {
   padding: 10px 20px;
 }
 
+.menu i {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.menubarra {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.menubarra li {
+  margin: 0 15px;
+  
+}
+
+.menubarra li a {
+  display: block;
+  padding: 15px 20px;
+}
+
+.barra {
+  background: #1f1f20;
+  margin-top: 10px;
+}
+
 .itens {
   margin: 0 auto;
   max-width: 900px;
@@ -60,29 +92,33 @@ h1, h5 {
   margin: 10px;
 }
 
-
 .acompanhe {
-  background: rgba(47, 55, 87, 0.616);
+  background: rgba(34, 45, 88, 0.616);
   padding: 20px 0;
   margin-bottom: 1px;
 }
 
 .acompanhe-container {
-  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .acompanhe-info {
-
+  margin:10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .footer {
-  background: black;
-  padding: 15px;
+  background: #1f1f20;
+  padding: 1.5em;
   text-align: center;
   margin: 0 auto;
 }
 
 .footer p {
+  text-align: center;
   color: lightgray;
-  margin: 10px;
-  font-size: 1em;
 }
