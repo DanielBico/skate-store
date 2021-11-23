@@ -19,6 +19,10 @@ img {
   display: block;
 }
 
+header i {
+  font-size: xx-large;
+}
+
 .header {
   padding: 15px;
   background: #1f1f20;
@@ -58,16 +62,13 @@ h5 {
 }
 
 .menubarra {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   box-sizing: border-box;
-}
-
-.menubarra li {
-  margin: 0 15px;
-  
 }
 
 .menubarra li a {
@@ -82,7 +83,7 @@ h5 {
 
 .itens {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 960px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -93,27 +94,49 @@ h5 {
 }
 
 .acompanhe {
+  text-align: center;
+  margin: 0 auto;
   background: rgba(34, 45, 88, 0.616);
-  padding: 20px 0;
   margin-bottom: 1px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .acompanhe-container {
-  margin: 10px;
+  margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  
 }
+
 .acompanhe-info {
+  margin: 0 auto;
   margin:10px 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+ }
+
+ .acompanhe h3 {
+   padding: 0 10px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+
+form {
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
+form label {
+  margin: 0 auto;
+  display: none;
 }
 
 .footer {
   background: #1f1f20;
-  padding: 1.5em;
+  padding: 1em;
   text-align: center;
   margin: 0 auto;
 }
