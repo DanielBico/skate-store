@@ -40,7 +40,7 @@ header i {
   text-align: center;
   color: #fff;
   padding: 20px ;
-  
+  justify-content: space-between;
 }
 
 .intro h1 {
@@ -53,9 +53,10 @@ header i {
   background: black;
   font-size:30px;
   text-decoration:none;
-  color: w
-  transform: scale(var(--ggs,1));
+  color: white;
+  justify-content: space-between;
 }
+  
 
 .menu {
   display: flex;
@@ -113,7 +114,7 @@ header i {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  
+  justify-content: space-between;
 }
 
 
@@ -189,20 +190,12 @@ header i {
 }
 
 
-
-
-
 .sobre-item {
   clear: both;
   margin: 30px auto;
 }
 
-/*.sobre-item::after, .sobre-item::before {
-  display: table;
-  content: '';
-  clear: both;*/
 }
-
 .sobre-item img {
   display: block;
   float: left;
@@ -243,6 +236,7 @@ header i {
   margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .acompanhe-info {
