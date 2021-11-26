@@ -1,0 +1,45 @@
+body, ul, p {
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 1.2rem;
+  font-family: verdana;
+  text-align: center;
+  background: #ece7e7;
+  
+
+}
+ button {
+  background: #0066A2;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 30px;
+  width: 80px;
+  font: bold 15px arial, sans-serif;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+p {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+  margin-bottom: 55px;
+}
+
+img {
+  padding: 15px auto;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background:#cbcdcf;
+  padding: 1px 0;
+  margin-top: 30px;
+}
